@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple react boilerplate. Easy and simple.",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git@github.com:ozanzeng/base-boilerplate.git"
   },
   "author": "Ozan Zeng",
