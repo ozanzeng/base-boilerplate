@@ -1,3 +1,5 @@
+# React base boilerplate
+
 ## Quick start
 
 1.  Make sure that you have Node.js v8.11 and npm v5 or above installed.
