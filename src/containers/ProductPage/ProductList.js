@@ -33,7 +33,7 @@ const ProductsList = ({ products }) => {
 ProductsList.propTypes = {
 	products: PropTypes.shape({
 		productList: PropTypes.array.isRequired
-	}).isRequired
+	}).isRequired	
 };
 
 export default ProductsList;

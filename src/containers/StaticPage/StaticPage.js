@@ -1,13 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { useTranslation, Trans } from 'react-i18next';
 
-class StaticPage extends Component {
-  render() {
-    return (
-      <div>
-        This is static web page, you can use this everywhere.
+export default function StaticPage() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
+
+  return (
+    <div className="App">
+      <div className="App-header">
+        <button onClick={() => changeLanguage("ger")}>ger</button>
+        <button onClick={() => changeLanguage("en")}>en</button>
       </div>
-    )
-  }
+      <div className="App-intro">
+        <h2>{t("Introduction")}</h2>
+        <Trans i18nKey="Optionally cache the translations" />
+      </div>
+    </div>
+  );
 }
-
-export default StaticPage;

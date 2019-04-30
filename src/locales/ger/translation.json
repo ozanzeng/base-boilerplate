@@ -1,0 +1,13 @@
+{
+  "Introduction": "Einführung",
+  "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
+    "ist ein Internationalisierungs-Framework, das eine Komplettlösung für die Lokalisierung Ihres Produkts vom Web auf das Handy und den Desktop bietet",
+  "Plugins to detect the user language":
+    "Plugins zur Erkennung der Benutzersprache",
+  "Plugins to load translations": "Plugins zum Laden von Übersetzungen",
+  "Optionally cache the translations":
+    "Optional die <br /> Übersetzungen zwischenspeichern",
+  "Advantages": "Vorteile",
+  "Flexibility to use other packages":
+    "Flexibilität zur Verwendung anderer Pakete"
+}
