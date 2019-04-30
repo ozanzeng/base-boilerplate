@@ -1,12 +1,12 @@
 {
-  "name": "guvencell-ui",
+  "name": "base-boilerplate",
   "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://EXT02D18254@stash.turkcell.com.tr/git/scm/tsip/guvencell-ui.git"
+    "url": "https://github.com/ozanzeng/base-boilerplate/"
   },
-  "author": "",
+  "author": "Ozan Zeng",
   "license": "ISC",
   "homepage": "/mayasigortaui/",
   "scripts": {
