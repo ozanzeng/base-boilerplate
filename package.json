@@ -7,7 +7,7 @@
     "url": "https://github.com/ozanzeng/base-boilerplate/"
   },
   "author": "Ozan Zengin",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
