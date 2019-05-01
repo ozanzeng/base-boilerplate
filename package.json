@@ -6,13 +6,11 @@
     "type": "git",
     "url": "https://github.com/ozanzeng/base-boilerplate/"
   },
-  "author": "Ozan Zeng",
+  "author": "Ozan Zengin",
   "license": "ISC",
-  "homepage": "/mayasigortaui/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "node pipeline.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
