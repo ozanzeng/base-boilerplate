@@ -14,12 +14,12 @@ i18n
   .init({
     // we init with resources
     resources: {
-        en: {
-            translations: translationEng
-        },
-        ger: {
-            translations: translationGer
-        }
+      en: {
+        translations: translationEng
+      },
+      ger: {
+        translations: translationGer
+      }
     },
     lng: "en",
     fallbackLng: "en",

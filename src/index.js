@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { CookiesProvider } from "react-cookie";
 import { Provider } from 'react-redux';
 import './assets/style/default.scss';
+
 import { store } from './helpers/store';
 
 // Language settings
@@ -15,11 +17,13 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </BrowserRouter>
+  <CookiesProvider>
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
+  </CookiesProvider>
   , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
