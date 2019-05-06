@@ -4,8 +4,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from "react-i18next";
 
 // Language Packeges
-import translationEng from './locales/en/translation.json';
-import translationGer from './locales/ger/translation.json';
+import translationEng from './locales/en/translation';
+import translationGer from './locales/ger/translation';
 
 i18n
   .use(XHR)

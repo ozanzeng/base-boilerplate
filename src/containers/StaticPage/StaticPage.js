@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import { useTranslation, Trans } from "react-i18next";
 
 export default function App() {
@@ -13,7 +12,7 @@ export default function App() {
     <div className="App">
       <div className="App-header">
         <h2>{t("Introduction")}</h2>
-        <button onClick={() => changeLanguage("de")}>de</button>
+        <button onClick={() => changeLanguage("ger")}>ger</button>
         <button onClick={() => changeLanguage("en")}>en</button>
       </div>
       <div className="App-intro">
