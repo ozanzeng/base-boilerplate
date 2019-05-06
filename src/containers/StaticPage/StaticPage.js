@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation, Trans } from "react-i18next";
 
-export default function App() {
+export default function StaticPage() {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = lng => {
