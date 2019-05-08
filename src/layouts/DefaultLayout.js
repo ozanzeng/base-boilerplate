@@ -17,7 +17,7 @@ class DefaultLayout extends Component {
           />
         );
       } else {
-        return <Redirect to='/default/home'/>;;
+        return <Redirect key={key} to='/default/home'/>;
       }
     });
   };

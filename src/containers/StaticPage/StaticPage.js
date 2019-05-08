@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 export default function StaticPage() {
   const { t, i18n } = useTranslation();
@@ -16,7 +16,7 @@ export default function StaticPage() {
         <button onClick={() => changeLanguage("en")}>en</button>
       </div>
       <div className="App-intro">
-        <Trans i18nKey="Optionally cache the translations" />
+        {t("Optionally cache the translations")}
       </div>
     </div>
   );
