@@ -9,6 +9,7 @@
   "author": "Ozan Zengin",
   "license": "MIT",
   "scripts": {
+    "precommit": "NODE_ENV=production lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +39,13 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix",
+      "git add"
+    ]
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -47,6 +55,17 @@
   "devDependencies": {
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
     "redux-devtools-extension": "^2.13.8"
   }
 }

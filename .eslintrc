@@ -19,6 +19,15 @@
     "jquery": true,
     "jest": true
   },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
   "rules": {
     "no-debugger": 0,
     "no-alert": 0,
@@ -71,11 +80,14 @@
     "max-len": 0,
     "import/extensions": 0,
     "no-underscore-dangle": 0,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
     "consistent-return": 0,
     "react/display-name": 1,
     "react/no-array-index-key": 0,
     "react/react-in-jsx-scope": 0,
     "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
     "react/forbid-prop-types": 0,
     "react/no-unescaped-entities": 0,
     "jsx-a11y/accessible-emoji": 0,
@@ -117,7 +129,7 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 80
+        "printWidth": 100
       }
     ],
     "jsx-a11y/href-no-hash": "off",
