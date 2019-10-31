@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import {
 	fetchProduct,
-} from '../../actions/productAction';
+} from '../../redux/actions';
 
 import ProductsList from './ProductList';
 

@@ -4,7 +4,7 @@ import { CookiesProvider } from "react-cookie";
 import { Provider } from 'react-redux';
 import './assets/style/default.scss';
 
-import { store } from './helpers/store';
+import { store } from './redux/store';
 
 // Language settings
 import "./i18n";
