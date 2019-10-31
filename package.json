@@ -20,6 +20,7 @@
     "i18next-browser-languagedetector": "^4.0.1",
     "i18next-xhr-backend": "^3.2.1",
     "lodash": "^4.17.15",
+    "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-cookie": "^4.0.1",
     "react-dom": "^16.11.0",
