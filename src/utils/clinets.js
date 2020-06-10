@@ -1,5 +1,5 @@
 import axios from 'axios';
-import * as API from './api';
+import * as API from './apiUrl';
 
 const requestSuccess = config => config;
 const requestError = error => error;
