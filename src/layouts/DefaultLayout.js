@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 // Router
 import routes from '../routes';
-import Header from '../components/Heaader/Header';
+import Header from '../components/Header';
 
 class DefaultLayout extends Component {
   getRoutes = routes => {

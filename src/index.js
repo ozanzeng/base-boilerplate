@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { CookiesProvider } from "react-cookie";
 import { Provider } from 'react-redux';
-import './assets/style/default.scss';
-
 import { store } from './redux/store';
 
 // Language settings
-import "./i18n";
+import "./utils/i18n";
 
 // Router
 import { BrowserRouter } from 'react-router-dom';

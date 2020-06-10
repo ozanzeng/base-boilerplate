@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // All API url coming from this.
-import { PRODUCT } from "../../client/api";
+import { PRODUCT } from "../../utils/apiUrl";
 import { fetches } from "./actionTypes";
 
 export function fetchProduct() {
